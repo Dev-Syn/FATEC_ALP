@@ -27,4 +27,13 @@ elif n3 > n1 and n3 > n2 and n1 > n2:
     medio = n1
     menor = n2
 
+
+if n3 > n2 and n2 > n1:
+    print("São números em ordem crescente\n")
+else:
+    print("Não são números em ordem crescente\n")
+
 print("Em ordem crescente os números informados ficam: %i, %i e %i" %(menor, medio, maior))
+
+
+

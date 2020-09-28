@@ -19,3 +19,19 @@ elif n3 == n4:
     print("Existem números repetidos. %.2f e %.2f" %(n3, n4))
 else:
     print("Não existe números repetidos.")
+
+
+'''
+entrada = input("Digite 4 digitos na mesma linha usando espaço ")
+
+x = entrada.split(" ") #Serve pra quebrar um argumento em vetores.
+a = x[0]
+b = x[1]
+c = x[2]
+d = x[3]
+
+if a == b or  a == c  or a == d  or b == c or b == d  or c == d:
+    print('Há números repetidos.')
+else:
+    print("Não há números repetidos")
+'''

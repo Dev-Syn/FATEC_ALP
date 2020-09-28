@@ -26,8 +26,3 @@ print("Divide 5 por 2 = %i e o resto da divisão de 5 por 2 = %i" % (x,y))
 
 print("5 elevado à 2 = %i" % w)
 
-
-entrada = input("Digite 4 digitos na mesma linha usando espaço ")
-
-x = entrada.split(" ") #Serve pra quebrar um argumento em vetores.
-
